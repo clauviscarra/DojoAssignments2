@@ -1,7 +1,7 @@
 class StringManipulationTest {
   public static void main(String[] args) {
     StringManipulation iD = new StringManipulation();
-    String newString = iD.trimAndConcat("hey I just met you", "and this is crazy");
+    String newString = iD.trimAndConcat("he llo", "wo rld");
     System.out.println(newString);
 
     int newInt = iD.getIndexOrNull("aeiou$", "$");

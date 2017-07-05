@@ -1,6 +1,6 @@
 public class StringManipulation {
   public String trimAndConcat(String string1, String string2){
-    String string3 = string1.concat(string2).trim();
+    String string3 = string1.trim().concat(string2.trim());
     return string3;
 
   }
