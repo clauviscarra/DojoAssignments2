@@ -20,11 +20,13 @@ public class Basics {
     anArray[2] = 10;
     anArray[3] = 7;
     anArray[4] = -2;
-  
+
 
     for(int a =0; a < anArray.length; a++){
       System.out.println(anArray[a]);
     }
+
+
 
     BasicMethods iD = new BasicMethods();
     int maxVal = iD.findmax(anArray);

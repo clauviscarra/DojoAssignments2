@@ -18,6 +18,8 @@ public class BasicMethods {
 
   }
 
+  
+
   public ArrayList<Integer> longarray(){
     ArrayList<Integer> arr = new ArrayList<>();
     for(int i = 0; i <= 255; i++){
