@@ -18,6 +18,8 @@ public class PuzzleJava {
     System.out.println(sum);
     return  arr;
   }
+  //access modifier -->public is a modifier that defines the access type of the method (optional, defaults to public, as opposed to private and protected).
+  //method type --> static is a class method that is invoked without reference to a particular object. Static methods can be called without creating an object of class. 
 
 
   public ArrayList<String> shuffleNames(){
@@ -48,15 +50,15 @@ public void shuffleAlphabet(){
   int rndNum;
   char tmp;
   char[] alphabet = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
-    char[] vowel = {'a','e','i','o','u'};
+  char[] vowel = {'a','e','i','o','u'};
 
     for(int i=0;i<alphabet.length;i++){
-    rndNum = rnd.nextInt(alphabet.length);
-    tmp = alphabet[i];
-    alphabet[i] = alphabet[rndNum];
-    alphabet[rndNum] = tmp;
+      rndNum = rnd.nextInt(alphabet.length);
+      tmp = alphabet[i];
+      alphabet[i] = alphabet[rndNum];
+      alphabet[rndNum] = tmp;
     }
-    System.out.println("Last Char: "+alphabet[alphabet.length-1]);
+    System.out.println("Last Char: " + alphabet[alphabet.length-1]);
 
     for(int i=0;i<vowel.length;i++){
             if(alphabet[0] == vowel[i]){
