@@ -1,0 +1,17 @@
+package com.codingdojo.objectmaster;
+
+public class HumanTest {
+
+	public static void main(String[] args){
+        Wizard clau  = new Wizard("Clau");
+        Human adri = new Human("Adri");
+        Wizard vale = new Wizard("Vale");
+        Ninja andre = new Ninja("Andre");
+        clau.fireball(adri);
+        adri.attack(clau);
+        vale.heal(clau);
+        andre.steal(adri);
+
+    }
+
+}

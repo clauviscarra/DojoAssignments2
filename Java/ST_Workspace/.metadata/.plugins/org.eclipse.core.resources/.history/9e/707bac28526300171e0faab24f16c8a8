@@ -1,0 +1,18 @@
+package com.codingdojo.objectmaster;
+
+public class Ninja extends Human{
+	
+	public Ninja(){
+		this.setStealth(10);
+		
+	}
+	
+	public Ninja(String name){
+		super(name);
+	}
+	
+	public void steal(Human human){
+		
+	}
+
+}

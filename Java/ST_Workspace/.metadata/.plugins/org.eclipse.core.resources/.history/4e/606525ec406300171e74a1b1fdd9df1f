@@ -1,0 +1,17 @@
+package com.codingdojo.zookeeper;
+
+public class Dragon extends Mammal {
+	public int energyLevel = 500;
+	
+	public void fly(){
+		System.out.println("PFPFpfpfpf *flyyying dragon noise*");
+		energyLevel -=  50;
+	}
+	
+	public void eatHumans(){
+		energyLevel += 25;
+		System.out.println("You ate a hooman");
+	}
+
+
+}

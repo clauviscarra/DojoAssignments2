@@ -1,0 +1,12 @@
+package com.codingdojo.objectmaster;
+
+public class Ninja extends Human{
+
+	public Ninja(String name) {
+		super(name);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}
