@@ -1,0 +1,15 @@
+
+public class BankAccountTest {
+
+	public static void main(String[] args) {
+		BankAccount account1 = new BankAccount(300,50);
+		
+		account1.getAccountNumber();
+		
+		System.out.println(BankAccount.accountCount());
+		System.out.println(BankAccount.totalMoney());
+		
+		account1.withdrawFunds(80);
+	}
+
+}

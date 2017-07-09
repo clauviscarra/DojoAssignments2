@@ -13,8 +13,10 @@ public class HumanTest {
        tim.fireball(will);
        marco.steal(tim);
        minh.deathBlow(tim);
+       dan.meditate();
        
        System.out.println(Samurai.howMany());
+       System.out.println("number of humans is " + Human.humanCount());
 
     }
 

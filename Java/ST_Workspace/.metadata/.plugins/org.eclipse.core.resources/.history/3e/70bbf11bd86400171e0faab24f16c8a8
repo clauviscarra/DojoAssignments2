@@ -1,0 +1,25 @@
+import java.util.Random;
+
+public class BankAccount {
+	
+	private long account_number;
+	private long checking_balance;
+	private long savings_balance;
+	private static int numberOfAccounts = 0;
+	private static int amoutOfMoney = 0;
+	
+	public BankAccount(){}
+	
+	public BankAccount(long account_number, long checking_balance, long savings_balance){
+		this.account_number = account_number;
+		this.checking_balance = checking_balance;
+		this.savings_balance = savings_balance;
+		this.numberOfAccounts++;
+	}
+	
+	public long setAccountNumber(){
+		this.account_number = 1000000000 + (int)(Math.random() + 2);
+		return account_number;
+		System.out.println(account_number)
+	}
+}

@@ -6,6 +6,7 @@ public class Human {
     private int intelligence;
     private int stealth;
     private int health;
+    private static int numberOfHumans = 0;
 
     public Human(){}
     
@@ -15,7 +16,12 @@ public class Human {
         this.intelligence = 3;
         this.stealth = 3;
         this.health = 100;
+        this.numberOfHumans++;
+        
     }
+ public static int humanCount(){
+	 return numberOfHumans;
+ }
 
  public void setHealth(int health){
 	 this.health = health;

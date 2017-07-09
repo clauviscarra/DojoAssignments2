@@ -1,0 +1,15 @@
+
+public class BankAccountTest {
+
+	public static void main(String[] args) {
+		BankAccount account1 = new BankAccount(300,50);
+		BankAccount account2 = new BankAccount(7000,21);
+		
+		account1.getAccountNumber();
+		account2.getAccountNumber();
+		
+		System.out.println(BankAccount.accountCount());
+		System.out.println(BankAccount.moneyCount());
+	}
+
+}

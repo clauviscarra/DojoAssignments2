@@ -23,6 +23,7 @@ public class Samurai extends Human {
 	
 	public void meditate(){
 		this.setHealth(this.getHealth()+this.getHealth()/2);
+		System.out.println(this.getName() + " now has health of " + this.getHealth());
 		
 	}
 	
