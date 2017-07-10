@@ -1,0 +1,10 @@
+
+public class Abstract implements Interface {
+	public Pokemon createPokemon(String name, int health, String type){
+		return new Pokemon(name, health, type);
+	}
+	
+	public
+	
+
+}

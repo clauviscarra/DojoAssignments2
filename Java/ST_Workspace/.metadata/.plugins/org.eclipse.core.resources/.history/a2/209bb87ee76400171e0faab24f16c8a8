@@ -1,0 +1,15 @@
+
+public class PokemonTest {
+
+	public static void main(String[] args) {
+		
+		
+		Pokedex pokedex = new Pokedex();
+		
+		Pokemon pikachu    = pokedex.createPokemon("pikachu",90000,"electricity");
+		pokedex.pokemonInfo(pikachu);
+		pokedex.attackPokemon(pikachu);
+		pokedex.pokemonInfo(pikachu);
+	}
+
+}

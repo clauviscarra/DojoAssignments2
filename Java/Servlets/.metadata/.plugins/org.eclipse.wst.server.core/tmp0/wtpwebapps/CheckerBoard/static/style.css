@@ -1,0 +1,22 @@
+*{
+	font-family:sans-serif;
+}
+.container{
+	width:500px;
+	margin:auto;
+	height:auto;
+}
+.even{
+	width: 20px;
+	height:20px;
+	background-color:red;
+	display: inline-block;
+}
+
+.odd{
+	width: 20px;
+	height:20px;
+	background-color:aqua;
+	display: inline-block;
+	
+}

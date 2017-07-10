@@ -1,0 +1,16 @@
+*{
+	font-family:sans-serif;
+}
+
+.even{
+	width: 20px;
+	height:20px;
+	background-color:red;
+}
+
+.odd{
+	width: 20px;
+	height:20px;
+	background-color:aqua;
+	
+}
