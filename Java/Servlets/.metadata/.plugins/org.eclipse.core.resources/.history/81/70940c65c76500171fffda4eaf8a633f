@@ -1,0 +1,8 @@
+package com.clau.pets.models;
+
+public class Cat {
+	public Cat(){
+		
+	}
+
+}

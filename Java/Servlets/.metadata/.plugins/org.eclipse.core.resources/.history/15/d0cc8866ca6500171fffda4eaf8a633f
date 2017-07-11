@@ -1,0 +1,30 @@
+package com.clau.pets.models;
+
+public abstract class Animal implements Pet {
+	
+	private String name;
+	private String breed;
+	private double weight;
+
+	public Animal() { 
+		
+	}
+	
+	public String getName(){
+		return name;
+	}
+	
+
+	
+	public String getBreed(){
+		return breed;
+	}
+	
+
+	
+	public double getWeight(){
+		return weight;
+	}
+	
+
+}

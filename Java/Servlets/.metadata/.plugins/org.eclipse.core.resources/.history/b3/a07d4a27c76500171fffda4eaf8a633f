@@ -1,0 +1,11 @@
+package com.clau.pets.models;
+
+public abstract class Animal implements Pet {
+
+	public Animal() {
+		private String name;
+		private String breed;
+		private double weight;
+	}
+
+}

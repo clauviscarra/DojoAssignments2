@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Index</title>
+</head>
+<body>
+
+<fieldset>
+<legend>Dog</legend>
+<form method="get" action="/animals/dog">
+	Name: <input id="name" type="text"></input>
+	Breed: <input id="breed" type="text"></input>
+	Weight(Lb): <input id="weight" type="text"></input>
+	<input type = "submit" value="Submit">
+</form>
+</fieldset>
+
+<fieldset>
+<legend>Cat</legend>
+<form method="get" action="/animals/cat">
+	Name: <input id="name" type="text"></input>
+	Breed: <input id="breed" type="text"></input>
+	Weight(Lb): <input id="weight" type="text"></input>
+	<input type = "submit" value="Submit">
+</form>
+</fieldset>
+
+</body>
+</html>
