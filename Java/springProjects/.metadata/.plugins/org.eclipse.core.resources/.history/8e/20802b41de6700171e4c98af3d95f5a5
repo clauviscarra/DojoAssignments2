@@ -1,0 +1,10 @@
+*{
+	font-family:sans-serif;
+}
+
+.container{
+	width:500px;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+}

@@ -1,0 +1,41 @@
+package com.clau.teamroaster.controllers;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import com.clau.teamroaster.models.Player;
+import java.util.ArrayList;
+
+
+public class AddPlayer extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		RequestDispatcher view = request.getRequestDispatcher("/WEB-INF/views/addplayer.jsp");
+		view.forward(request, response);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		ArrayList<Player> players = new ArrayList<>();
+		Player player = new Player(
+				request.getParameter("name"),
+				request.getParameter("last_name"),
+				request.getParameter("age")
+				
+				);
+		
+		players.add(player);
+		request.setAttribute("player", player);
+		request.setAttribute("players", players);
+		
+		
+		doGet(request, response);
+	}
+
+}

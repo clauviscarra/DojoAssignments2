@@ -1,0 +1,6 @@
+INDEX VERSION 1.3+/Users/claudiaviscarra/Desktop/DojoAssignments2/Java/springProjects/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+966060472.index
+1083897564.index
+1691680214.index
+2018403715.index
+175888862.index

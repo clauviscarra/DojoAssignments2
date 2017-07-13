@@ -1,0 +1,16 @@
+package com.clau.teamroaster.models;
+
+public class Team {
+	
+	String name;
+	String id;
+
+	public Team() {
+	}
+	
+	public Team(String name) {
+		this.name = name;
+		this.id = 
+	}
+
+}

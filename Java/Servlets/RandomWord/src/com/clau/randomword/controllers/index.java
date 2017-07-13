@@ -57,7 +57,7 @@ public class index extends HttpServlet {
         }
 		
         Date date = new Date();
-        SimpleDateFormat ft = new SimpleDateFormat("MMMM d y - h:mm s a");
+        SimpleDateFormat ft = new SimpleDateFormat("MMMM dd,  yyyy - h:mm s a");
         
         time = ft.format(date).toString();
         session.setAttribute("time", time);

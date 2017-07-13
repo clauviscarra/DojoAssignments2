@@ -1,0 +1,5 @@
+package com.claudia.controllerspractice.controllers;
+
+public class HomeController {
+
+}
